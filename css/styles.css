@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.flex{
+    display: flex;
+    min-height: 100vh;
+}
+
+
+
+.margin {
+    padding-top: 100px;
+    flex-basis: 30%;
+    background: #C2BDBD;
+}
+
+.main{
+    padding-left: 30px;
+    flex-basis: 70%;
+}
+
+.margin .pic {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.margin .pic img {
+  width: 100%;
+}
+
+
+h1, h2, h3 {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+
+
+.main .text {
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #000000;
+}
+
+.main .start {
+
+  left: 49px;
+  top: 109px;
+
+}
+
+.main .about {
+
+  left: 49px;
+  top: 144px;
+
+}
+
+.main .skills {
+
+  left: 49px;
+  top: 179px;
+
+}
